@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <>
-      <h1>Lucas fernando</h1>
+      <h1>Whereas</h1>
     </>
   )
 }
