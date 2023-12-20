@@ -27,6 +27,43 @@ export default function Home() {
             alt="Conteúdos sujeito programador"
           />
         </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <section>
+            <h2>Aprenda criar aplicativos para Android e IOS</h2>
+            <span>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit,
+              quidem et consectetur voluptatum exercitationem vitae eum magni
+              reiciendis explicabo corporis optio sit ea ut? Unde tempore
+              voluptate minima aliquid nostrum.
+            </span>
+          </section>
+
+          <img
+            src="/images/financasApp.png"
+            alt="Conteúdos desenvolvidos de apps"
+          />
+        </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <img
+            src="/images/webDev.png"
+            alt="Conteúdos desenvolvidos de apps"
+          />
+          <section>
+            <h2>Aprenda criar aplicativos para Android e aplicações Web</h2>
+            <span>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit,
+              quidem et consectetur voluptatum exercitationem vitae eum magni
+              reiciendis explicabo corporis optio sit ea ut? Unde tempore
+              voluptate minima aliquid nostrum.
+            </span>
+          </section>
+        </div>
       </main>
     </>
   )
