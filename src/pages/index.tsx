@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/home.module.scss'
 
+import Image from 'next/image'
+
+import techsImage from '../../public/images/techs.svg'
+
 export default function Home() {
   return (
     <>
@@ -50,10 +54,7 @@ export default function Home() {
         <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
-          <img
-            src="/images/webDev.png"
-            alt="Conteúdos desenvolvidos de apps"
-          />
+          <img src="/images/webDev.png" alt="Conteúdos desenvolvidos de apps" />
           <section>
             <h2>Aprenda criar aplicativos para Android e aplicações Web</h2>
             <span>
@@ -63,6 +64,20 @@ export default function Home() {
               voluptate minima aliquid nostrum.
             </span>
           </section>
+        </div>
+
+        <div className={styles.nextLevelContent}>
+          <Image quality={100} src={techsImage} alt="Tecnoligias" />
+          <h2>
+            Mais de <span className={styles.aluno}>15 mil</span> já levaram sua
+            carreira ao próximo nível.
+          </h2>
+          <span>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </span>
+          <a>
+            <button>Começar agora!</button>
+          </a>
         </div>
       </main>
     </>
